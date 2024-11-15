@@ -17,3 +17,5 @@ console.log(heading)
 const root = ReactDOM.createRoot(document.getElementById("root"));
 console.log(root)
 root.render(heading);
+ // transitive dependency - We have only downloaded parcel but in node modules it showed so many files, because parcel as a project had other dependencies and other dependecies had other other dependencies
+ 
